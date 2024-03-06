@@ -1,0 +1,151 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    background-color: #192430;
+}
+
+/* Styling Header */
+header {
+    background-color: #516578;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+    max-width: 90px; 
+}
+
+/* Styling Navigation */
+nav {
+    background-color: #192430c7;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    height: 20px;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+nav img {
+    width: 70px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #000000;
+    background-color: #516578;
+    color: #fff;
+    
+}
+
+/* Styling Image Container */
+.image-container {
+    position: relative;
+    opacity: 0,5;
+}
+
+.image-text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1; 
+}
+
+.image-text h2 {
+    font-size: 200%;
+    margin-bottom: 10px;
+}
+
+
+.image-container img {
+    width: 100%;
+    display: block;
+}
+
+footer {
+    background-color: #192430;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.Tentang i {
+    text-align: center;
+}
+
+.image img {
+    width: 20%;
+    margin: 3%;
+}
+.Tentang h1 {
+    text-align: center;
+    color:  white;
+    margin-bottom: 10%;
+    margin-top: 7%;
+}
+.image {
+    display: flex;
+    align-items: center;
+}
+
+.image p {
+    margin-left: 10%; 
+    font-size: 80%;
+}
+.p2 {
+    margin-left: 50%;
+    margin-top: -200p;
+}
+
+
+.kontak h1 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 10%;
+    margin-top: 7%;
+
+}
+iframe {
+    width: 100%;
+    height: 50%;
+}
+section ul li {
+    list-style: none;
+    
+}
+
+section ul li img {
+    width: 1%;
+    height: 2%;
+}
+iframe {
+    width: 50%;
+}
+
+
+

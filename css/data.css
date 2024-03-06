@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #192430;
+}
+
+/* Styling Header */
+header {
+    background-color: #516578;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+    max-width: 90px; 
+}
+
+/* Styling Navigation */
+nav {
+    background-color: #192430c7;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    height: 20px;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 19px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+nav img {
+    width: 70px;
+    float: left;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    float: right;
+    margin-top: -20PX;
+    margin-right: 10px;
+}
+nav a:hover {
+    text-decoration: underline  ;
+}
+
+nav p {
+    color: #fff;
+    margin-left: 5%;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #000000;
+    background-color: #324150;
+    color: #fff;
+}
+.data{
+    width:80%;
+
+}
+.image-container {
+    position: relative;
+}
+
+.image-text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.image-text h2 {
+    font-size: 200%;
+    margin-bottom: 10px;
+}
+.image-text p a {
+    color: #fff;
+    border: #192430 solid 10px;
+    background-color: #192430;
+    border-radius: 12%;
+    text-decoration: none;
+
+}
+
+.image-container img {
+    width: 100%;
+    display: block;
+}
+.image {
+    display: flex;
+    align-items: center;
+}
+section p {
+    font-size: 10px;
+    margin-left: 10px;
+}
+table {
+    margin-left:  %;
+}
+.data img {
+    border-radius: 90%;
+    width: 100px;
+    height: 100px;
+    margin-left: 10%;
+}
+footer {
+    background-color: #192430;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-left: 10%;
+}
